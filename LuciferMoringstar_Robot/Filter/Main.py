@@ -33,7 +33,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📢 ⚠ ചാനലിൽ ജോയിൻ ചെയ്ത ശേഷം TRY ചെയ്യൂ ⚠ Join Updates Channel 📢", url=invite_link.invite_link)
+                            InlineKeyboardButton("📢  Join Updates Channel 📢", url=invite_link.invite_link)
                         ]
                     ]
                 ),
