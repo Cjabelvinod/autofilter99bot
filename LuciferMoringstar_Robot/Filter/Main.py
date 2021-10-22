@@ -29,7 +29,7 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**ചെന്നെലിൽ join ചെയ്ത ഷെഷം try ചെയ്യു ⚠ JOIN UPDATE CHANNEL AND TRY AGAIN ⚠**",
+                text="**ചെന്നെലിൽ join ചെയ്ത ഷെഷം try ചെയ്യു ⚠**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
