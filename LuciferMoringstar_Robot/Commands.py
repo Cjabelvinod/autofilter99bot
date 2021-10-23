@@ -45,11 +45,11 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**⚠ തഴെ കാനുന്ന ചന്നെലിൽ join ചെയ്ത ഷെഷം try ചെയ്യു അപ്പൊൽ കിട്ടും മുവി ⚠!**",
+                    text="**ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് movies കിട്ടുന്നത് ആണ് ✅ JOIN CHANNEL 👇**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 Clik this buton and join 📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
