@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💠 Join Updates Channel 💠", url=invite_link.invite_link)
+                        InlineKeyboardButton("💠 Join Updates Channel 💠", url=f'https://t.me/malayalam_film_channel')
                     ]
                 ]
             )
