@@ -29,7 +29,7 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് movies കിട്ടുന്നത് ആണ് ✅ JOIN CHANNEL 👇**",
+                text="**ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് movies കിട്ടുന്നത് ആണ് ✅ 🔺HEY bro,join our channel and click 'try again' button for download any movies🔺JOIN CHANNEL 👇**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
